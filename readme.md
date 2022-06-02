@@ -1,9 +1,9 @@
 # Primordial extension with some tools #
 ---
-###Features  
+### Features  
 -> Message open/close buttons  
-: New users (uid >1k, closes messages automatically)  
-: All users (doesn't close automatically)  
+--> New users (uid >1k, closes messages automatically)  
+--> All users (doesn't close automatically)  
 
 ---  
 ## How to install ##
