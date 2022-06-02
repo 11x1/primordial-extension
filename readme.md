@@ -1,9 +1,9 @@
-#Primordial extension with some tools
+#Primordial extension with some tools  
 ---
-###Features
--> Message open/close buttons
-: New users (uid >1k, closes messages automatically)
-: All users (doesn't close automatically)
+###Features  
+-> Message open/close buttons  
+: New users (uid >1k, closes messages automatically)  
+: All users (doesn't close automatically)  
 
   
 
