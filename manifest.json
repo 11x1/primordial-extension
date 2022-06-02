@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "kheycodes primordial tools",
+  "version": "0.1",
+  "author": "khey#2341",
+  "description": "Some tools to better your primordial website usage.",
+  "permissions": [
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.primordial.dev/*"],
+      "js": ["inject.js"]
+    }
+  ],
+  "icons": {
+    "16": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "action": {
+    "default_icon": "logo.png",
+    "default_popup": "index.html",
+    "default_title": "A tooltip popup description when you hover over the Chrome Extension icon."
+  }
+}
