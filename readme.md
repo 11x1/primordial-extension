@@ -17,7 +17,8 @@
 2. Go to you web browser extension settings and enable 'Developer mode' (top right)
 3. Click the button load unpacked (top left)
 4. Select your extracted folder
-(5.) To change extension setting, go to top right and click the extensions icon. Click on 'kheycodes primordial tools'
+  
+To change extension setting, go to top right and click the extensions icon. Click on 'kheycodes primordial tools'
 ---
 ## Todo ###
 - [x] Message show/hide
