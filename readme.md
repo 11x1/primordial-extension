@@ -7,7 +7,9 @@
 
 ---  
 ## How to install [^1]  ##  
-To change extension settings, go to top right and click the extensions icon. Click on 'kheycodes primordial tools'
+To change extension settings, go to top right and click the extensions icon. Click on 'kheycodes primordial tools'  
+There are **2** ways to install the extension:
+  
 1st way:  
 1. Download the '.crx' file  
 2. Locate yourself to your browser's extension site (ie. chrome://extensions)
