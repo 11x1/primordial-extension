@@ -11,9 +11,9 @@ To change extension settings, go to top right and click the extensions icon. Cli
 There are **2** ways to install the extension:
   
 1st way:  
-1. Download the '.crx' file  
+1. Download the file (here)[https://shibe.host/DpVQZTtT0a74/direct?download=yes]  
 2. Locate yourself to your browser's extension site (ie. chrome://extensions)
-3. Drag the '.crx' file there  
+3. Drag the '*.crx' file there 
   
 2nd way:  
 1. Download repository and extract it
