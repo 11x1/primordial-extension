@@ -7,6 +7,7 @@
 
 ---  
 ## How to install [^1]  ##  
+To change extension settings, go to top right and click the extensions icon. Click on 'kheycodes primordial tools'
 1st way:  
 1. Download the '.crx' file  
 2. Locate yourself to your browser's extension site (ie. chrome://extensions)
@@ -18,7 +19,6 @@
 3. Click the button load unpacked (top left)
 4. Select your extracted folder
   
-To change extension setting, go to top right and click the extensions icon. Click on 'kheycodes primordial tools'
 ---
 ## Todo ###
 - [x] Message show/hide
