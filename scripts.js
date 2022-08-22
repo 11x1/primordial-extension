@@ -11,7 +11,7 @@ function restoreOptions() {
         comments_type.style.visibility = comments_checkbox.checked ? 'visible' : 'hidden';
     });
 
-    chrome.storage.sync.get({'comments-enable-selection' : 'newfag'}, function (result) {
+    chrome.storage.sync.get({'comments-enable-selection' : 'new'}, function (result) {
         comments_type.value = result['comments-enable-selection'];
     });
 
@@ -23,13 +23,13 @@ restoreOptions();
 comments_button.addEventListener('click', function() {
     comments_checkbox.checked = !comments_checkbox.checked;
     comments_type.style.visibility = comments_checkbox.checked ? 'visible' : 'hidden';
-    const enable_type = comments_checkbox.checked ? comments_type.value == 'newfag' ? 'newfag' : 'all' : 'none'; 
+    const enable_type = comments_checkbox.checked ? comments_type.value == 'new' ? 'new' : 'all' : 'none'; 
     chrome.storage.sync.set({'comments-enable-type': enable_type}, () => { })
     chrome.storage.sync.set({'comments-enable-selection': comments_type.value}, () => { })
 });
 
 comments_type.onchange = () => {
-    const enable_type = comments_type.value == 'newfag' ? 'newfag' : 'all'; 
+    const enable_type = comments_type.value == 'new' ? 'new' : 'all'; 
     chrome.storage.sync.set({'comments-enable-type': enable_type}, () => { })
     chrome.storage.sync.set({'comments-enable-selection': comments_type.value}, () => { })
 }
